@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fail_icon"
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/fail" />
+
+    <TextView
+        android:id="@+id/fail_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fail_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16px"
+        android:text="@string/fail_hint"
+        android:textColor="#ccffffff"
+        android:textSize="36px" />
+
+    <TextView
+        android:id="@+id/fail_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fail_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16px"
+        android:text="@string/fail_retry"
+        android:textColor="#cc259b24"
+        android:textSize="16px" />
+</RelativeLayout>

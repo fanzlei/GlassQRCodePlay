@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GlassScaner</string>
+    <string name="scan_text">请瞄准二维码</string>
+    <string name="fail_hint">扫描失败</string>
+    <string name="fail_retry">点击重试</string>
+</resources>
